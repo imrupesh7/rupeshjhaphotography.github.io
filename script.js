@@ -134,9 +134,7 @@ function next5(from5){
 
 // winpagestart
 
-var x = prompt("write your name")
 
- document.write(  " Congratulations "+ x);
 
 
 
