@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+}
+
+.win{
+    width: 60%;
+    height:auto;
+    background-color:aliceblue;
+    margin: auto;
+    padding: 10px 5%;
+  
+}
+
+.win img{
+    width: 100%;
+height: auto;}
+
+.quiz{
+    width: 80%;
+    height:800px;
+    background-color:aliceblue;
+    margin: auto;
+    padding: 10px 5%;
+}
+
+.quiz h1{
+    color: rgb(255, 159, 95);
+    font-family: Honey Candy;
+    font-size: 50px;
+}
+
+.quiz img{
+    width: 100%;
+}
+
+.quiz button{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    font-family: poppins;
+    overflow: hidden;
+    transition: 1s;
+    letter-spacing: 4px;
+    background-color: transparent;
+    margin: 10px 0;
+    cursor: pointer;
+    border: none;
+}
+
+.quiz button:hover{
+    box-shadow: inset -10.5em 0 0 0 #ff96ad, inset 10.5em 0 0 0 #ff96ad;
+    color: #fff;
+}
+
+
+
+.quiz button span {
+    position: absolute;
+    display: block;
+}
+
+ .quiz button span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(90deg, transparent, rgb(255, 159, 95)) ;
+    animation:btn-anim1 1s linear infinite;
+    
+}
+
+@keyframes btn-anim1{
+    0%{
+        left: -100%;
+    }
+    50%, 100%{
+        left: 100%;
+    }
+}
+
+
+.quiz button span:nth-child(2){
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(180deg, transparent, rgb(255, 159, 95)) ;
+    animation:btn-anim2 1s linear infinite;
+    animation-delay: .25s;
+}
+
+@keyframes btn-anim2{
+    0%{
+        top: -100%;
+    }
+    50%, 100%{
+        top: 100%;
+    }
+}
+
+.quiz button span:nth-child(3){
+    bottom: 0%;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(270deg, transparent, rgb(255, 159, 95)) ;
+    animation:btn-anim3 1s linear infinite;
+    animation-delay: .5s;
+}
+
+@keyframes btn-anim3{
+    0%{
+    right: -100%;
+    }
+    50%, 100%{
+        right: 100%;
+    }
+}
+
+.quiz button span:nth-child(4){
+    top: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(360deg, transparent, rgb(255, 159, 95)) ;
+    animation:btn-anim4 1s linear infinite;
+    animation-delay: .75s;
+}
+
+@keyframes btn-anim4{
+    0%{
+        top: 100%;
+    }
+    50%, 100%{
+        top: -100%;
+    }
+}   
+
+
+.quiz1{
+    width: 50%;
+    height:500px;
+    background-color:rgb(247, 251, 255);
+    margin: 5% auto;
+     padding: 0px  0 0 5%; 
+    box-shadow: 5px 5px 5px 5px lightgray;
+     display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+   
+}
+
+.quiz1 input{
+    cursor: pointer;
+}
+
+.quiz1 h1{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 35px;
+
+}
+
+.quiz1 h1 span{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 35px;
+    color: rgb(202, 202, 202);
+}
+
+.quiz1 p{
+    font-family: roboto;
+    padding: 2% 0;
+    font-weight: 500;
+}
+
+.quiz1 label{
+    font-family: poppins;
+    font-size: 14px;
+}
+
+#button{
+    width: 100px;
+    height: 35px;
+    transition: 1s;
+    border: none;
+    cursor: pointer;
+}
+
+#button:hover{
+    box-shadow: inset -10.5em 0 0 0 #ff96ad, inset 10.5em 0 0 0 #ff96ad;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
